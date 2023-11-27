@@ -1,6 +1,7 @@
 import unittest
 from worker import *
 
+
 class Testcase(unittest.TestCase):
     def test_add_worker(self):
         workers = WorkerDB("file.csv")
